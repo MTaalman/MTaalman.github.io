@@ -18,6 +18,17 @@ p {
 header,body,footer {
     background-color: beige;
 }
-a:active,a {
-    color: rgb(146, 146, 121);
+a {
+    background-color: rgb(175, 175, 160);
+    color: rgb(115, 115, 98);
+    padding: 5px;
+}
+a:hover {
+    background-color: rgb(115, 115, 98);
+    color: rgb(175, 175, 160);
+    padding: 5px;
+}
+.centerimage {
+    margin-left: 33%;
+    margin-right: 67%;
 }
