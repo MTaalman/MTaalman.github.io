@@ -1,9 +1,23 @@
 h1 {
-    height: 120px;
+    height: 50px;
     background-color:crimson;
-    text-align: center;
     color: white;
 }
+h1,h2 {
+    font-family: Impact;
+    text-align: center;
+}
+p {
+    background-color: rgb(204, 204, 175);
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header,body,footer {
-    color: beige;
+    background-color: beige;
+}
+a:active,a {
+    color: rgb(146, 146, 121);
 }
