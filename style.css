@@ -23,7 +23,7 @@ a {
     color: rgb(115, 115, 98);
     padding: 5px;
 }
-a:hover {
+a:hover,a:active {
     background-color: rgb(115, 115, 98);
     color: rgb(175, 175, 160);
     padding: 5px;
