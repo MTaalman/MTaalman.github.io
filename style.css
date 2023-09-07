@@ -2,4 +2,8 @@ h1 {
     height: 120px;
     background-color:crimson;
     text-align: center;
+    color: white;
+}
+header,body,footer {
+    background-color: beige;
 }
