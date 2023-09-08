@@ -1,70 +1,70 @@
-h1 {
-    height: 40px;
-    width :300px;
-    background-color:crimson;
-    color: beige;
-    margin-left: auto;
-    margin-right: auto;
-}
-h1,h2 {
-    font-family: Impact;
-    text-align: center;
-}
-p, ul, ol {
-    background-color: rgb(204, 204, 175);
-    padding: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    h1 {
+        height: 40px;
+        width :300px;
+        background-color:crimson;
+        color: beige;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1,h2 {
+        font-family: Impact;
+        text-align: center;
+    }
+    p, ul, ol {
+        background-color: rgb(204, 204, 175);
+        padding: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
-header,body,footer {
-    background-color: beige;
-}
-a {
-    background-color: rgb(175, 175, 160);
+    header,body,footer {
+        background-color: beige;
+    }
+    a {
+        background-color: rgb(175, 175, 160);
+        color: rgb(115, 115, 98);
+        padding: 5px;
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+        width :18%;
+        text-align: center;
+    }
+    a:hover,.active {
+        background-color: rgb(115, 115, 98);
+        color: rgb(175, 175, 160);
+        padding: 7px;
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+        width :18%;
+        text-align: center;
+    }
+    .centerimage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    tr {
+        background-color: rgb(204, 204, 175);
+        padding: 2%;
+    }
+    .QuartileNumber {
+        color: rgb(115, 115, 98);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        font-size:  30px;
+    }
+    td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
     color: rgb(115, 115, 98);
-    padding: 5px;
-    display: inline-block;
-    margin-left: 0px;
-    margin-right: 0px;
-    width :18%;
-    text-align: center;
-}
-a:hover,.active {
-    background-color: rgb(115, 115, 98);
-    color: rgb(175, 175, 160);
-    padding: 7px;
-    display: inline-block;
-    margin-left: 0px;
-    margin-right: 0px;
-    width :18%;
-    text-align: center;
-}
-.centerimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-tr {
-    background-color: rgb(204, 204, 175);
-    padding: 2%;
-}
-.QuartileNumber {
-    color: rgb(115, 115, 98);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    font-size:  30px;
-}
-td {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   text-align: center;
-   color: rgb(115, 115, 98);
-   font-weight: bold;
-}
-.studycharts{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-}
+    font-weight: bold;
+    }
+    .studycharts{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
