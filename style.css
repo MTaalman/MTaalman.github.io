@@ -54,11 +54,10 @@
     }
 
     .IndexImage1{
-        height: 100px;width: 450px;
+        height: 70px;width: 270px;
         display: inline-block;
         margin-left: 72%;
-        margin-bottom: -104px;
-        background-color: beige;
+        margin-top: -50px;
     }
 
     tr {
