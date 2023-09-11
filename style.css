@@ -46,8 +46,9 @@
         text-align: center;
     }
 
-    .IndexImage1{
-        height: 70px;width: 270px;
+    .IndexImage1 {
+        height: 70px;
+        width: 270px;
         display: inline-block;
         margin-left: 72%;
         margin-top: -50px;
@@ -71,12 +72,18 @@
         color: rgb(115, 115, 98);
         font-weight: bold;
     }
+    th {font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: rgb(94, 94, 80);
+        font-weight: bolder;
+    }
 
     .studycharts {
         margin-left: auto;
         margin-right: auto;
         margin-top: 5px;
     }
+
     hr {
         color: rgb(61, 61, 53);
         margin-top: 0px;
@@ -113,30 +120,54 @@
 
     /*profilepictures*/
     .profilepicture {
-        width: 180px; height: 300px;
+        width: 180px;
+        height: 300px;
         display: inline-block;
         margin-left: 80%;
         margin-top: -100px;
         margin-bottom: -130px;
     }
+
     .profilepicture2 {
-        width: 200px; height: 300px;
+        width: 200px;
+        height: 300px;
         display: inline-block;
         margin-left: 80%;
         margin-top: -90px;
         margin-bottom: -130px;
     }
+
     footer {
         padding: 5px;
         background-color: rgb(115, 115, 98);
     }
+
     .colorToplinks {
         width: 19%;
-        background-color: rgb(211,211,203);
+        background-color: rgb(211, 211, 203);
 
     }
+
     .colorBottomlinks {
         width: 15.7%;
         background-color: rgb(175, 175, 160);
-        
+
+    }
+
+    .border {
+        margin-left: auto;
+        margin-right: auto;
+        outline: 1px black solid;
+        width: 500px;
+        height: 24px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(175, 175, 160);
+    }
+
+    /*add later using JS instead of CSS */
+    .progress {
+        background-color: green;
+        width: 1.66%;
+        height: 24px;
     }
