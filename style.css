@@ -72,7 +72,9 @@
         color: rgb(115, 115, 98);
         font-weight: bold;
     }
-    th {font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    th {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         color: rgb(94, 94, 80);
         font-weight: bolder;
@@ -170,4 +172,31 @@
         background-color: green;
         width: 1.66%;
         height: 24px;
+    }
+
+    .flex-container {
+        display: table;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .flex-container>.header {
+        display: table-row;
+        font-weight: bold;
+        background-color: #000000;
+    }
+
+    .flex-container>.row {
+        display: table-row;
+    }
+
+    .flex-container>.row>div {
+        display: table-cell;
+        padding: 8px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    .flex-container>.row>.QuartileNumber {
+        font-weight: bold;
     }
