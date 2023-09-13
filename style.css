@@ -207,3 +207,17 @@
         gap: 0px 100px;
         justify-content: center;
     }
+    .professionBox{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .professionBoxItem {
+        max-width: 50%;
+        max-height: 500px;
+    }
+    .professionBoxPic {
+        max-width: 25%;
+        max-height: 250px;
+    }
