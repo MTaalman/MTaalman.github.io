@@ -49,9 +49,6 @@
     .IndexImage1 {
         height: 70px;
         width: 270px;
-        display: inline-block;
-        margin-left: 72%;
-        margin-top: -50px;
     }
 
     tr {
@@ -126,7 +123,7 @@
         height: 300px;
         display: inline-block;
         margin-left: 80%;
-        margin-top: -100px;
+        margin-top: -150px;
         margin-bottom: -130px;
     }
 
@@ -135,8 +132,8 @@
         height: 300px;
         display: inline-block;
         margin-left: 80%;
-        margin-top: -90px;
-        margin-bottom: -130px;
+        margin-top: 10px;
+        margin-bottom: -200px;
     }
 
     footer {
@@ -199,4 +196,14 @@
 
     .flex-container>.row>.QuartileNumber {
         font-weight: bold;
+    }
+    .IndexImage2 {
+        height: 70px;
+        width: auto;
+    }
+    .IndexHead {
+        display: flex;
+        padding: 10px;
+        gap: 0px 100px;
+        justify-content: center;
     }
